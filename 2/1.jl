@@ -1,4 +1,4 @@
-function Fast_pow(a, n)
+function Fast_pow(a, n)   #Эта функция использует метод быстрого возведения числа в степень.
     s=n
     r=a
     t=1
