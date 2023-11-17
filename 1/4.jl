@@ -1,4 +1,4 @@
-function Diophantine_solve(a, b, c)
+function Diophantine_solve(a, b, c)   #Эта функция решает линейное диофантово уравнение вида ax + bx = c для данных коэффицентов.
     d = gcd(a, b)
     if c % d != 0
         return nothing
