@@ -1,4 +1,4 @@
-function bisection1(f::Function, a, b, eps)
+function bisection1(f::Function, a, b, eps) #Эта функция использует метод бисекции для приближенного нахождения корня уравнения.
     f_a = f(a)
     while (b - a > eps)
         t = (a + b)/2
