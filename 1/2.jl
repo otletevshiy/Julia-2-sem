@@ -1,4 +1,4 @@
-function extended_euclidean_algorithm(a, b)
+function extended_euclidean_algorithm(a, b)   #Эта функция использует расширенный алгоритм Евклида для нахождения наибольшего общего делителя коэффицентов Безу для двух чисел.
     if b == 0
         return a, 1, 0
     else
