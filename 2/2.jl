@@ -1,4 +1,4 @@
-function Formula_Bine(n)
+function Formula_Bine(n)   #Эта функция исользует формулу Бине для эффективного вычисления n-го числа Фибоначчи.
     root_5 = 5 ^ 0.5
     phi = ((1 + root_5) / 2)
 
