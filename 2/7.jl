@@ -1,4 +1,4 @@
-function Newton_(f, df, x0, tol, max_i)
+function Newton_(f, df, x0, tol, max_i)   #Функция которая использует метод Ньютона для численного нахождения корня уравнения
     x = x0
     i = 0
     while abs(f(x)) > tol && i < max_i
